@@ -14,5 +14,8 @@ p6df::modules::darwin::external::brew() {
 }
 
 p6df::modules::darwin::init() {
+
+    xcode-select --install
+
 }
 
