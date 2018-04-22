@@ -3,8 +3,14 @@ p6df::modules::darwin::deps()    {
 	ModuleDeps=()
 }
 
-p6df::modules::darwin::external() { 
+p6df::modules::darwin::external::brew() {
 
+  brew install ack
+  brew install ag 
+  brew install fasd
+  brew install fd
+  brew install htop
+  brew install lsof
 }
 
 p6df::modules::darwin::init() {
