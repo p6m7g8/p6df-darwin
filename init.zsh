@@ -13,10 +13,8 @@ p6df::modules::darwin::external::brew() {
   brew install lsof
 }
 
+# xcode-select --install
+
 p6df::modules::darwin::init() {
 
-    xcode-select --install
-
 }
-
-#p6df::modules::darwin::init
