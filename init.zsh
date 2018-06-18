@@ -13,7 +13,11 @@ p6df::modules::darwin::external::brew() {
   brew install lsof
 }
 
-# xcode-select --install
+p6df::modules::darwin::home::symlink() {
+  
+  xcode-select --install
+  # XXX: no actual symlink
+}
 
 p6df::modules::darwin::init() {
 
