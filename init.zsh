@@ -14,11 +14,14 @@ p6df::modules::darwin::external::brew() {
 }
 
 p6df::modules::darwin::home::symlink() {
-  
+
   xcode-select --install
   # XXX: no actual symlink
 }
 
 p6df::modules::darwin::init() {
 
+    p6df::path::fpath_brew_add "ag"
+    p6df::path::fpath_brew_add "fd"
+    p6df::path::fpath_brew_add "the_silver_searcher"
 }
