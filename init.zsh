@@ -11,6 +11,15 @@ p6df::modules::darwin::external::brew() {
   brew install fd
   brew install htop
   brew install lsof
+
+  brew install bgrep
+  brew install cgrep
+  brew install grepcidr
+  brew install ngrep
+  brew install pgrep
+  brew install pdfgrep
+  brew install psgrep
+  brew install ripgrep-all
 }
 
 p6df::modules::darwin::home::symlink() {
