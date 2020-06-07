@@ -1,8 +1,29 @@
+######################################################################
+#<
+#
+# Function: p6df::modules::darwin::version()
+#
+#>
+######################################################################
 p6df::modules::darwin::version() { echo "0.0.1" }
+######################################################################
+#<
+#
+# Function: p6df::modules::darwin::deps()
+#
+#>
+######################################################################
 p6df::modules::darwin::deps()    { 
 	ModuleDeps=()
 }
 
+######################################################################
+#<
+#
+# Function: p6df::modules::darwin::external::brew()
+#
+#>
+######################################################################
 p6df::modules::darwin::external::brew() {
 
   brew install ack
@@ -22,12 +43,26 @@ p6df::modules::darwin::external::brew() {
   brew install ripgrep-all
 }
 
+######################################################################
+#<
+#
+# Function: p6df::modules::darwin::home::symlink()
+#
+#>
+######################################################################
 p6df::modules::darwin::home::symlink() {
 
   xcode-select --install
   # XXX: no actual symlink
 }
 
+######################################################################
+#<
+#
+# Function: p6df::modules::darwin::init()
+#
+#>
+######################################################################
 p6df::modules::darwin::init() {
 
     p6df::path::fpath_brew_add "ag"
