@@ -27,11 +27,12 @@ p6df::modules::darwin::deps()    {
 p6df::modules::darwin::external::brew() {
 
   brew install ack
-  brew install ag 
+  brew install ag
   brew install fasd
   brew install fd
   brew install htop
   brew install lsof
+  brew install exa
 
   brew install bgrep
   brew install cgrep
@@ -64,6 +65,8 @@ p6df::modules::darwin::home::symlink() {
 #>
 ######################################################################
 p6df::modules::darwin::init() {
+
+    alias ell='exa -lgHhSa'
 
     p6df::path::fpath_brew_add "ag"
     p6df::path::fpath_brew_add "fd"
