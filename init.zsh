@@ -33,6 +33,7 @@ p6df::modules::darwin::external::brew() {
   brew install htop
   brew install lsof
   brew install exa
+  brew install nettop
 
   brew install bgrep
   brew install cgrep
