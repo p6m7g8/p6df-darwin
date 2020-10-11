@@ -13,8 +13,10 @@ p6df::modules::darwin::version() { echo "0.0.1" }
 #
 #>
 ######################################################################
-p6df::modules::darwin::deps()    { 
-	ModuleDeps=()
+p6df::modules::darwin::deps() { 
+	ModuleDeps=(
+    p6m7g8/p6common
+  )
 }
 
 ######################################################################
@@ -68,8 +70,4 @@ p6df::modules::darwin::home::symlink() {
 p6df::modules::darwin::init() {
 
     alias ell='exa -lgHhSa'
-
-    p6df::path::fpath_brew_add "ag"
-    p6df::path::fpath_brew_add "fd"
-    p6df::path::fpath_brew_add "the_silver_searcher"
 }
