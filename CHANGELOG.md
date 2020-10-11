@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/p6m7g8/p6df-darwin/compare/v1.0.2...v2.0.0) (2020-10-11)
+
+
+### Bug Fixes
+
+* **deps:** depends on `p6m7g8/p6common`, removes fpath for now ([#5](https://github.com/p6m7g8/p6df-darwin/issues/5)) ([9188791](https://github.com/p6m7g8/p6df-darwin/commit/91887918a82be2c36a5b399fb1aee40e1876ec56))
+
 ### [1.0.2](https://github.com/p6m7g8/p6df-darwin/compare/v1.0.1...v1.0.2) (2020-09-20)
 
 
