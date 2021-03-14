@@ -38,9 +38,11 @@
 
 - [Change Log](CHANGELOG.md)
 
-### Usage
+## Usage
 
-#### init.zsh:
+### p6df-darwin:
+
+#### p6df-darwin/init.zsh:
 
 - p6df::modules::darwin::deps()
 - p6df::modules::darwin::external::brew()
