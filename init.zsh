@@ -32,14 +32,13 @@ p6df::modules::darwin::external::brew() {
 ######################################################################
 #<
 #
-# Function: p6df::modules::darwin::home::symlink()
+# Function: p6df::modules::darwin::langs()
 #
 #>
 ######################################################################
-p6df::modules::darwin::home::symlink() {
+p6df::modules::darwin::langs() {
 
   xcode-select --install
-  # XXX: no actual symlink
 }
 
 ######################################################################
