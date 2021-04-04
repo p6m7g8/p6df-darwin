@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.1](https://github.com/p6m7g8/p6df-darwin/compare/v2.1.0...v2.1.1) (2021-04-04)
+
+
+### Features
+
+* **deps:** moves bat here, adds exa; moves greps to shell ([#14](https://github.com/p6m7g8/p6df-darwin/issues/14)) ([7cd0abb](https://github.com/p6m7g8/p6df-darwin/commit/7cd0abb2ce96bbc9ccdcbda4b76c5e5edc489f2c))
+
+
+* **link:** remove rendundant symlinks; echo for now ([#16](https://github.com/p6m7g8/p6df-darwin/issues/16)) ([f0d2468](https://github.com/p6m7g8/p6df-darwin/commit/f0d24688c8f0d96d723b4fd99fea48c9e0d45d72))
+* **README:** updates generator ([#15](https://github.com/p6m7g8/p6df-darwin/issues/15)) ([203a323](https://github.com/p6m7g8/p6df-darwin/commit/203a323d450f38902fb006a03e45e07cfff345b7))
+* Coc -> .github ([dd71a74](https://github.com/p6m7g8/p6df-darwin/commit/dd71a74f62c9264d7484e4ffb2fa05fd2b95d378))
+
 ## [2.1.0](https://github.com/p6m7g8/p6df-darwin/compare/v2.0.0...v2.1.0) (2020-12-06)
 
 
